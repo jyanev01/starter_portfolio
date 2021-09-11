@@ -116,13 +116,13 @@ header nav ul li a:hover {
     border-bottom: 1px solid var(--tertiary-color);
 }
 
-.about h3 {
+.about h2 {
     align-items: right;
     flex-wrap: wrap;
 }
 
-.about p {
-
+.about h2 p {
+    align-items: center;
 }
 .about:last-child {
     border-right: 5px;
