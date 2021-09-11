@@ -41,8 +41,6 @@ header{
     display: flex;
     justify-content: space-between;
     flex-wrap:wrap;
-    position: -webkit-sticky;
-    position: sticky;
     top: 0;
     }
 
@@ -86,14 +84,55 @@ header nav ul li a:hover {
 
 /* Headers End */
 
-/* Cool Stuff Picture Styly */
-.Cool-Stuff{
-    padding: 50px;
+/* Cool Stuff Picture Style */
+.Cool-Subtitle {
     display: flex;
-    position: absolute;
     flex-wrap: wrap;
     width: 100%;
+    padding:0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 10%;
 }
+
+.Cool-Subtitle p {
+    display: inline;
+    float: left;
+    font-size: 36px;
+    font-weight: Bold;
+}
+/* Cool Subtitle section end */
+
+/* About me Section start */
+.about {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--tertiary-color);
+}
+
+.about h3 {
+    align-items: right;
+    flex-wrap: wrap;
+}
+
+.about p {
+
+}
+.about:last-child {
+    border-right: 5px;
+}
+/* About section END */
+
+/* Work section Begin */
+
+/* Work Section END */
+
 
 
 /*  All section styles */
