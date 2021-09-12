@@ -120,30 +120,31 @@ header nav ul li a:hover {
 
 /* About me Section start */
 .about {
-    margin: 50px auto;
-    padding-bottom: 50px;
-    width: 80%;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid var(--tertiary-color);
+    flex-direction: row;
+    padding-left: 40px;
 }
 
-.about h2 {
-    align-items: right;
-    flex-wrap: wrap;
+.vertical {
+    border-left: 6px solid black;
 }
 
-.about h2 p {
-    align-items: center;
-}
-.about:last-child {
-    border-right: 5px;
-}
+
 /* About section END */
 
 /* Work section Begin */
+.work-title {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-left: 40px;    
+}
+
+.vertical {
+    border-left: 6px solid black;
+}
+
 
 .Tiles-wrapper {
     display: block;
@@ -161,12 +162,6 @@ header nav ul li a:hover {
     
 }
 
-.work-title {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    padding-left: 40px;    
-}
 
 .Tiles {
     display: inline-block;
@@ -178,9 +173,6 @@ header nav ul li a:hover {
     border: 1px solid black
 }
 
-.vertical {
-    border-left: 6px solid black;
-}
 
 .surfreport {
     flex: 0 0 calc(85% - 30px);
