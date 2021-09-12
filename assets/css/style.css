@@ -94,15 +94,29 @@ header nav ul li a:hover {
     background-position: center;
     background-attachment: fixed;
     background-position: 10%;
+    position: relative;
+    text-align: center;
+    color: white;
 }
 
 .Cool-Subtitle p {
-    display: inline;
-    float: left;
     font-size: 36px;
     font-weight: Bold;
+    position: absolute;
+    bottom: 80px;
+    right: 160px;
+    color:var(--off-white)
 }
+
 /* Cool Subtitle section end */
+
+/* All Tiles Styling */
+.about h2, .tiles h2, .contact h2 {
+    position: absolute;
+    left: 100px;
+    top: 150px;
+
+}
 
 /* About me Section start */
 .about {
@@ -131,8 +145,78 @@ header nav ul li a:hover {
 
 /* Work section Begin */
 
+.Tiles-wrapper {
+    display: block;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.Tiles-container {
+    display: flex;
+    position: relative;
+    width: calc(100% + 30px);
+    flex-wrap: wrap;
+    
+}
+
+.work-title {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-left: 40px;    
+}
+
+.Tiles {
+    display: inline-block;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    min-height: 20px;
+    line-height: 19px;
+    text-align: center;
+    border: 1px solid black
+}
+
+.vertical {
+    border-left: 6px solid black;
+}
+
+.surfreport {
+    flex: 0 0 calc(85% - 30px);
+}
+
+.LEDwall {
+    flex: 0 0 calc(45% - 30px);
+}
+
+.calculator {
+    flex: 0 0 calc(45% - 30px);
+}
+
+.pastelpuzzels {
+    flex: 0 0 calc(45% - 30px);
+}
+
+.runbuddy {
+    flex: 0 0 calc(45% - 30px);
+}
 /* Work Section END */
 
+/* Contact me CSS Styling BEGIN */
+
+.Contact {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-left: 40px;
+}
+
+.vertical {
+    border-left: 6px solid black;
+}
+
+/* Contact me CSS Styling END */
 
 
 /*  All section styles */
