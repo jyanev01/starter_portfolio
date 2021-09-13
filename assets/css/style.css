@@ -111,17 +111,16 @@ header nav ul li a:hover {
 /* Cool Subtitle section end */
 
 /* All Tiles Styling */
-.about h2, .tiles h2, .contact h2 {
+/* .about h2, .tiles h2, .contact h2 {
     position: absolute;
     left: 100px;
     top: 150px;
 
-}
+} */
 
 /* About me Section start */
-.about {
+.aboutTitle {
     display: flex;
-    justify-content: space-between;
     flex-direction: row;
     padding-left: 40px;
 }
@@ -129,6 +128,15 @@ header nav ul li a:hover {
 .vertical {
     border-left: 6px solid black;
 }
+
+
+.AboutTitle3  {
+    font:bold;
+    text-align: center;
+    padding: 20px;
+    line-height: 1;
+}
+
 
 
 /* About section END */
@@ -145,6 +153,19 @@ header nav ul li a:hover {
     border-left: 6px solid black;
 }
 
+.workTitle {
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+}
+
+.workTitle3  {
+    font:bold;
+    text-align: center;
+    padding: 20px;
+    line-height: 6;
+}
+
 
 .Tiles-wrapper {
     display: block;
@@ -157,7 +178,7 @@ header nav ul li a:hover {
 .Tiles-container {
     display: flex;
     position: relative;
-    width: calc(100% + 30px);
+    width: calc(100% + 500px);
     flex-wrap: wrap;
     
 }
@@ -173,26 +194,93 @@ header nav ul li a:hover {
     border: 1px solid black
 }
 
+.img-text {
+    bottom:0;
+    background-color: lightblue;
+    display: inline-block;
+}
 
 .surfreport {
-    flex: 0 0 calc(85% - 30px);
+    flex: 0 0 calc(90%);
+    text-align: left;
+    background-image: url('../images/#');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
 }
+
+.surfreport:hover {
+    text-shadow:none;
+    opacity: 0.7;
+}
+
 
 .LEDwall {
-    flex: 0 0 calc(45% - 30px);
+    flex: 0 0 calc(45%);
+    text-align: left;
+    background-image: url('../images/#');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+
+
 }
+
+.LEDwall:hover {
+    text-shadow:none;
+    opacity: 0.7;
+}
+
 
 .calculator {
-    flex: 0 0 calc(45% - 30px);
+    flex: 0 0 calc(45%);
+    text-align: left;
+    background-image: url('../images/#');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+
 }
+
+.calculator:hover {
+    text-shadow:none;
+    opacity: 0.7;
+}
+
 
 .pastelpuzzels {
-    flex: 0 0 calc(45% - 30px);
+    flex: 0 0 calc(45%);
+    text-align: left;
+    background-image: url('../images/#');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+
 }
 
-.runbuddy {
-    flex: 0 0 calc(45% - 30px);
+.pastelpuzzels:hover {
+    text-shadow:none;
+    opacity: 0.7;
 }
+
+
+.runbuddy {
+    flex: 0 0 calc(45%);
+    text-align: left;
+    background-image: url('../images/hero-bg.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.runbuddy:hover {
+    text-shadow:none;
+    opacity: 0.7;
+}
+
 /* Work Section END */
 
 /* Contact me CSS Styling BEGIN */
