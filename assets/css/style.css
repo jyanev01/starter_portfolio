@@ -203,11 +203,9 @@ header nav ul li a:hover {
 .surfreport {
     flex: 0 0 calc(90%);
     text-align: left;
-    background-image: url('../images/#');
+    background-image: url('../images/surf.jpg');
     background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-position: 80%;
+    background-position: 50% 50%;
 }
 
 .surfreport:hover {
@@ -219,13 +217,9 @@ header nav ul li a:hover {
 .LEDwall {
     flex: 0 0 calc(45%);
     text-align: left;
-    background-image: url('../images/#');
+    background-image: url('../images/LEDWall.jpeg');
     background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-position: 80%;
-
-
+    background-position: 50% 50%;
 }
 
 .LEDwall:hover {
@@ -237,11 +231,9 @@ header nav ul li a:hover {
 .calculator {
     flex: 0 0 calc(45%);
     text-align: left;
-    background-image: url('../images/#');
+    background-image: url('../images/financial-calculator.jpeg');
     background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-position: 80%;
+    background-position: 50% 50%;
 
 }
 
@@ -254,11 +246,9 @@ header nav ul li a:hover {
 .pastelpuzzels {
     flex: 0 0 calc(45%);
     text-align: left;
-    background-image: url('../images/#');
+    background-image: url('../images/pastel-puzzels.jpg');
     background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-position: 80%;
+    background-position: 50% 50%;
 
 }
 
