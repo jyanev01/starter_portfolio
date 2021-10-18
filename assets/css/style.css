@@ -231,7 +231,7 @@ header nav ul li a:hover {
 .calculator {
     flex: 0 0 calc(45%);
     text-align: left;
-    background-image: url('../images/financial-calculator.jpeg');
+    background-image: url('../images/deployed1.png');
     background-size: cover;
     background-position: 50% 50%;
 
