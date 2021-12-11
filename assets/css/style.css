@@ -214,15 +214,15 @@ header nav ul li a:hover {
 }
 
 
-.LEDwall {
+.Pokegen {
     flex: 0 0 calc(45%);
     text-align: left;
-    background-image: url('../images/LEDWall.jpeg');
+    background-image: url('../images/hero-pokegen_bg.png');
     background-size: cover;
     background-position: 50% 50%;
 }
 
-.LEDwall:hover {
+.Pokegen:hover {
     text-shadow:none;
     opacity: 0.7;
 }
